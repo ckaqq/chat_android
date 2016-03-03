@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">聊天室</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_ip">地址（不用带http，可空）</string>
+    <string name="prompt_nick">昵称</string>
+    <string name="action_sign_in">进入聊天室</string>
+    <string name="action_sign_in_short">连接</string>
+
+    <string name="error_connect">连接聊天室失败</string>
+
+    <!-- messages -->
+    <plurals name="message_participants">
+        <item quantity="one">当前聊天室仅剩%d位小伙伴</item>
+        <item quantity="other">当前聊天室共有%d位小伙伴</item>
+    </plurals>
+    <string name="message_user_joined">%s 加入聊天室</string>
+    <string name="message_user_left">%s 退出聊天室</string>
+    <string name="user_action_typing">正在输入...</string>
+
+</resources>
